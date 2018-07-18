@@ -1,0 +1,172 @@
+
+/*HEADER SECTION*/
+
+header{
+	display: flex;
+	justify-content: space-between;
+	font-family:Verdana;
+	font-weight: bold;
+	font-size: 14px;
+	padding-bottom: 10px;
+	border-bottom: 2px solid black;
+	position: fixed;
+	z-index: 1;
+	width: 100%;
+	background-color: white;
+	top:0;
+	
+}
+.image-content{
+	display: flex;
+	align-items: center;
+	width:150px;
+	justify-content: space-between;
+	margin-left: 50px;
+	color:mediumaquamarine;
+}
+nav{
+	width:250px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-right: 50px;
+
+}
+a{
+	color:black;
+}
+ 
+
+/*CONTENT SECTION*/
+.content{
+	display: flex;
+	width:1250px;
+	margin:110px auto;
+	justify-content: space-between;
+}
+
+/*LARGE COLUMN*/
+.largecol{
+	width: 630px;
+	display: flex;
+	flex-direction: column;
+	font-family: Georgia;
+  	font-size: 17px;
+  	color: black;
+
+}
+.mainstory{
+	width:630px;
+}
+.mainstory .image{
+	height: 300px;
+	background-image: url("../images/main.png");
+	text-align: center;
+}
+.story{
+	display: flex;
+	justify-content: space-between;
+}
+.left{
+	width:auto;
+	margin-right: 30px;
+}
+.left .image{
+	background-image: url("../images/fall.png");
+	height:300px;
+	
+}
+.right{
+	width: auto;
+}
+.right .image{
+	background-image: url("../images/camera.png");
+	height:300px;
+	
+}
+.image{
+	display: flex;
+	font-family: Georgia;
+  	font-weight: bold;
+  	font-size: 30px;
+  	color: white;
+  	text-align: center;
+  	align-items: center;
+  	justify-content: center;
+}
+
+/*MEDIUM COLUMN*/
+.mediumcol{
+	width: 300px;
+	font-family: Georgia;
+  	font-size: 17px;
+  	color: black;
+}
+.mediumcol .image{
+	width:300px;
+	height: 300px;
+	background-image: url("../images/cat.png");
+
+}
+/*SMALL COLUMN*/
+.smallcol{
+	width:270px;
+	display: flex;
+	flex-direction: column;
+}
+h3{
+	text-align: center;
+	font-size: 16px;
+  	font-weight: bold;
+}
+.bottom{
+	display: flex;
+	flex-direction: column;
+	background-color: WhiteSmoke;
+  	font-family: Verdana;
+	font-size: 12px;
+	color: DimGray;
+	align-items: center;
+}
+.bottom div{
+	border-bottom: 1px solid black;
+	width:270px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+/*FOOTER*/
+
+.footer{
+	height:350px;
+	background-color: mediumaquamarine;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	font-family: Verdana;
+  	font-size: 12px;
+
+}
+.bottom2{
+	background-color: mediumaquamarine;
+	color: black;
+}
+.top2{
+	display: flex;
+	width: 400px;
+	justify-content: space-between;
+}
+.top2 p{
+	width:100px;
+	border-right: 2px solid white;
+	font-family: Georgia;
+  	font-size: 16px;
+  	font-weight: bold;
+  	color: white;
+}
+.top2 nav{
+	margin-left: 30px;
+}
+
